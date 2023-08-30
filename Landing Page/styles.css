@@ -1,0 +1,329 @@
+
+body, h1, h2, h3,  ul, li, form, button {
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    width:100%;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+  }
+  .hp{
+	
+    background-color: aquamarine;
+    font-family:"FontGet";
+    font-style:italic;
+    text-align:center;
+    color:red;
+    position:sticky;
+  }
+  
+  
+  
+ 
+  #home{
+    min-height:40vh;
+    background-image:url(bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    color:aliceblue;
+    font-style: italic;
+    position:relative;
+    
+  }
+ .hover {
+    text-align: center;
+   padding-top: 10%;
+   font-family:'dancing script';
+  text-shadow: 2px 2px 2px;
+  text-decoration: wavy;
+  animation:1s ease-out 0s  slideAnimation;
+  
+ 
+}
+h1:hover{
+    transform: scale(1.3);
+}
+  p{
+    text-align: center;
+    font-style:italic;
+  }
+  .cta-button{
+    display:inline-block;
+    padding: 10px 20px ;
+    background-color:black;
+    color: white;
+    text-decoration:none;
+    border-radius: px;
+    align-items: center; 
+  }
+  .cta-button:hover{
+    transform:scale(1.3);
+
+  }
+  @keyframes slideAnimation{
+    0%{transform:translatey(-100%);}
+    100%{transform:translatey(0);}
+  }
+  .pro{
+    background-color: azure;
+    font-family: 'Great Vibes';
+    text-align: center;
+    font-size: 40px;
+  }
+  .part1{
+    font-family:'Dancing Script';
+  }
+   .product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    }
+    
+    .product-card {
+    width: calc(30% - 20px);
+    margin: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    }
+    
+    .product-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .product-image {
+    text-align: center;
+    }
+    
+    .product-img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    }
+    .product-img:hover{
+      transform: scale(1.3);
+
+    }
+    
+    .product-details {
+    padding: 10px;
+    }
+    
+    .product-details h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+    
+    .price {
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+    .seller {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+    }
+    
+    .buy-button {
+    background-color: #ff9100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    display: inline-block;
+     
+    }
+    
+    .buy-button:hover {
+    background-color: #ff6600;
+    transform:scale(1.0);
+    }
+  
+  h3,h4,h5{
+
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  h4,button {
+    line-height: 0%;
+    text-align: center;
+  }
+  #about{
+    background-color: antiquewhite;
+    font-family:'Harry P';
+    animation-name:example;
+    animation-duration: 2s ;
+    padding: 20px;
+  }
+  #para{
+    font-style:italic;
+    padding-bottom:10px;
+  }
+  @keyframes example {
+    from{background-color:antiquewhite;}
+    to{background-color:gray;}
+    
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-feedback {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .contact-details p {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+   
+  }
+ div #us{
+  color: aqua;
+  font-family: fantasy;
+  font-weight: 100;
+     
+  }
+  .logo{
+    padding: 90px;
+    
+  }
+  .logo:hover{
+    transform: scale(1.3);
+
+  }
+  
+  .feedback-form {
+    flex: 1;
+    max-width: 350px;
+    
+  }
+  
+  .feedback-form form {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+  }
+  
+  .feedback-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .feedback-form textarea {
+    resize: vertical;
+  }
+  
+  .feedback-form button {
+    background-color: #ff9100;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #ff6600;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+  flex-direction: column;
+  align-items: left;
+  }
+  .icons{
+    font-family:'dancing script';
+    font-size: 5px;
+  }
+  
+  .icon-link {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+  }
+   .rights{
+    padding:10px;
+    background-color: aquamarine;
+    font-family:"FontGet";
+    font-style:italic;
+    text-align:center;
+    color:red;
+    position:sticky;
+   }
